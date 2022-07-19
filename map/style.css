@@ -1,0 +1,105 @@
+*
+html{
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Bold.ttf);}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: Poppins;}
+
+.item3 {
+    margin: 0;
+    padding: 0;
+}
+
+.item3 .judul h1 {
+    color:  rgb(0, 92, 170);
+    font-size: 45px;
+    margin: 50px 0;
+    padding: 10px;
+    text-shadow: rgb(255, 214, 0) 4px 4px 4px;
+    position: absolute;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+    top: 2%;
+}
+.item3 .container{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 97vh;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item3 .container .hexagoneArea{
+    display: flex;
+}
+.item3 .container .hexagoneArea.last{
+    transform: translateY(-35px);
+}
+.item3 .container .hexagoneArea .hexagone{
+    position: relative;
+    width: 250px;
+    height: 275px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%,0 75%);
+    background: rgb(0, 92, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.item3 .container .hexagone .hexagone img{
+    width: 80px;
+}
+
+.item3 .container .hexagoneArea .hexagone h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.item3 .container .hexagoneArea .hexagone:hover{
+    background: rgb(255, 214, 0);
+    transform: scale(0.8);
+}
+
+.item3 h3 {
+    color: rgb(255, 214, 0);
+    text-shadow: rgb(0, 92, 170) 3px 3px 4px;
+}
+#mapid {
+    position: absolute;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 25%;
+    top: 20%;
+
+}

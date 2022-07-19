@@ -1,0 +1,115 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author" content="Made with ❤ by Jorge Epuñan - @csslab">
+  
+  <title>jQuery Timelinr - Dando vida al tiempo</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="js/jquery.timelinr-0.9.7.js"></script>
+  <script> 
+    $(function(){
+      $().timelinr({
+        autoPlay: 'true',
+        autoPlayDirection: 'forward'
+      })
+    });
+  </script>
+</head>
+
+<body>
+  <div class ="item2">
+    <div class="judul">
+      <h1>10 Fun Fact Candi Kedulan</h1>
+    </div>
+  <div id="timeline">
+    <ul id="dates">
+      <li><a href="#1">1</a></li>
+      <li><a href="#2">2</a></li>
+      <li><a href="#3">3</a></li>
+      <li><a href="#4">4</a></li>
+      <li><a href="#5">5</a></li>
+      <li><a href="#6">6</a></li>
+      <li><a href="#7">7</a></li>
+      <li><a href="#8">8</a></li>
+      <li><a href="#9">9</a></li>
+      <li><a href="#10">10</a></li>
+      <li><a href="#11">11</a></li>
+    </ul>
+    <ul id="issues">
+      <li id="1">
+        <img src="images/1.png" width="256" height="256" />
+        <h1>1</h1>
+        <p>Candi Kedulan terletak di Dusun Kedulan, Desa Tirtomartani, Kecamatan Kalasan, Sleman, Daerah Istimewa Yogyakarta, berada pada koordinat 7° 44’ 28” LS dan 110° 28’ 5” BT, dengan ketinggian 168, 45 meter di atas permukaan air laut. Candi Kedulan ditemukan dalam keadaan runtuh dan terpendam material vulkanik yang terbawa oleh lahar gunung Merapi. Berdasarkan hasil kajian stratigrafi, Candi Kedulan telah tertutup lahar setebal 8 meter yang tersusun atas 15 lapisan sedimen.</p>
+      </li>
+      <li id="2">
+        <img src="images/2.png" width="256" height="256" />
+        <h1>2</h1>
+        <p>Candi kedulan bercorak agama hindu dibangun sekitar abad ke 8 dan ke-0 pada saat zaman kejayaan mataram kuno </p>
+      </li>
+      <li id="3">
+        <img src="images/3.png" width="256" height="256" />
+        <h1>3</h1>
+        <p>Bangunan induk Candi Kedulan ditemukan pada tanggal 24 November 1993 secara tidak sengaja oleh para penambang pasir yang sedang menambang pasir di lahan gersang milik tanah kas desa.  candi ini ditemukan terletak tiga sampai tujuh meter dibawah permukaan tanah, kemungkinan besar karena tertimbun lahar gunung merapi. </p>
+      </li>
+      <li id="4">
+        <img src="images/4.png" width="256" height="256" />
+        <h1>4</h1>
+        <p>kompleks candi kedulan terdapat sebuah candi induk/ utama yang menghadap ke timur dan  tiga buah candi perwara yang berjajar dari utara ke selatan
+        </p>
+      </li>
+      <li id="5">
+        <img src="images/5.png" width="256" height="256" />
+        <h1>5</h1>
+        <p>Pada tahun 2018 dilakukan pemugaran candi induk.  candi induk adalah candi yang paling utama.  bangunan candi lebih megah dan besar. Ukuran candi induk 12,05 x 12,05 meter. Pada bagian pipi tangga terdapat hiasan makara dan pada bagian kaki candi memiliki selasar yang dikelilingi pagar langkan.
+        </p>
+      </li>
+      <li id="6">
+        <img src="images/6.png" width="256" height="256" />
+        <h1>6</h1>
+        <p>Pada tahun 2019 dilakukan pemugaran candi perwara. candi perwara bangunan lebih kecil. candi perwara terletak di depan candi induk. ukuran bangunan candi 4 meter X 4 meter. didalam bilik yang didalamnya ditempatkan lingga yoni, arca mahakala dan arca nandishwara. 
+        </p>
+      </li>
+      <li id="7">
+        <img src="images/7.png" width="256" height="256" />
+        <h1>7</h1>
+        <p>Pada saat musim penghujan candi kedulan selalu digenangi air sedalam 6 meter dilakukan kajian penanganan genangan air dan direkomendasikan untuk pembuatan gorong gorong ke arah selatan sejauh 220m.Pada tahun 2017 kegiatan pembuatan gorong gorong dilakukan.</p>
+      </li>
+      <li id="8">
+        <img src="images/8.png" width="256" height="256" />
+        <h1>8</h1>
+        <p>Terdapat dua buah prasasti yaitu prasasti sumundul dan prasasti pananggaran.  Kedua prasasti bertuliskan huruf bahasa Jawa Kuno berangka tahun 791 Saka. kemudian diterjemahkan oleh cahyono dan riboet dari fakultas ilmu budaya UGM, menjelaskan adanya bangunan suci bernama tiwagaharyyan oleh karean itu menentukan masa pendirian candi kedulan mengacu pada angka yang tertera pada dua prasasti tersebut. 
+        </p>
+      </li>
+      <li id="9">
+        <img src="images/9.png" width="256" height="256" />
+        <h1>9</h1>
+        <p>Selain bangunan candi induk dan perwara, candi kedulan memiliki pagar halaman 1 dan 2.  Pagar candi selesai dipugar pada tahun 2020 bulan desember. 
+        </p>
+      </li>
+      <li id="10">
+        <img src="images/10.png" width="256" height="256" />
+        <h1>10</h1>
+        <p>Membutuhkan 25 Tahun untuk merekonstruksi candi. Kesenangan yang berbeda akan didapatkan bila mengunjungi candi ini, sebab bisa menikmati proses rekonstruksi candi yang sangatlah rumit
+        </p>
+      </li>
+      <li id="11">
+        <img src="images/2019.png" width="256" height="256" />
+        <h1>2019</h1>
+        <p>Kelanjutan dari kegiatan pemugaran pada tahun 2018 dengan memugar tiga candi perwara</p>
+      </li>
+    </ul>
+    <div id="grad_left"></div>
+    <div id="grad_right"></div>
+    <a href="#" id="next">+</a>
+    <a href="#" id="prev">-</a>
+    <h1> Sumber : Balai Pelestarian Cagar Budaya <a href="https://bpcbdiy.kemdikbud.go.id/cagarbudaya-candi-kedulan" title="candi kedulan">BPCB DIY Candi Kedulan</a></h1>
+  </div>
+  </div>
+ 
+  
+
+</body>
+</html>

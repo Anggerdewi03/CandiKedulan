@@ -1,0 +1,135 @@
+*
+html{
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Bold.ttf);}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: Poppins;}
+
+
+
+.judul h1 {
+    color:  rgb(0, 92, 170);
+    font-size: 45px;
+    margin: 50px 0;
+    padding: 10px;
+    text-shadow: rgb(255, 214, 0) 4px 4px 4px;
+    position: absolute;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+    top: 2%;
+}
+.judul h2 {
+    color: black;
+    font-size: 16px;
+    margin: 50px 0;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    height: 100px;
+    left: 15%;
+    top: 15%;
+}
+.judul h3 {
+  color: black;
+  text-shadow: white  2px 2px 2px;
+  font-size: 20px;
+  margin: 50px 0;
+  padding: 10px;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  left: 25%;
+  top: 50%;
+}
+.judul h4 {
+  color: black;
+  text-shadow: white  2px 2px 2px;
+  font-size: 20px;
+  margin: 50px 0;
+  padding: 10px;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  left: 25%;
+  top: 55%;
+}
+.judul h5 {
+  color: black;
+  text-shadow: white 2px 2px 2px;
+  font-size: 20px;
+  margin: 50px 0;
+  padding: 10px;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  left: 25%;
+  top: 60%;
+}
+.judul h6 {
+  color: black;
+  text-shadow: white  2px 2px 2px;
+  font-size: 20px;
+  margin: 50px 0;
+  padding: 10px;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  left: 25%;
+  top: 65%;
+}
+.judul h7 {
+  color: black;
+  text-shadow: white  2px 2px 2px;
+  font-size: 20px;
+  margin: 50px 0;
+  padding: 10px;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  left: 25%;
+  top: 70%;
+}

@@ -1,0 +1,157 @@
+*
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    box-sizing: border-box }
+
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Bold.ttf);}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin:0;
+    padding:0;
+    font-family: Poppins;}
+    
+.item1 { grid-area: home; }
+.item2 { grid-area: napaktilas; }
+.item3 { grid-area: fiture; }
+.item4 { grid-area: about; }
+.item5 { grid-area: pengantar; }
+    
+.grclass-container {
+      display:grid;
+      grid-template-areas:
+        'home home home home home home'
+        'pengantar pengantar pengantar pengantar pengantar pengantar'
+        'napaktilas napaktilas napaktilas napaktilas napaktilas napaktilas'
+        'fiture fiture fiture fiture fiture fiture'
+        'about about about about about about';
+      gap: 0px;
+      padding: 0px;
+}
+
+.grclass-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 0px 0;
+      font-size: 30px;
+}
+.item1{
+    margin:0;
+    padding: 0px;
+    position: relative;
+    background: url(bg.png);
+    background-size: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animate 30s linear infinite;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+li,a,button {
+    font-family:Poppins;
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgb(20, 1, 1);
+    text-decoration: none;
+}
+.item1{
+    order: 1;
+}
+.item1{
+    list-style: none;
+}
+
+.item1 li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.item1 li:nth-child{
+    padding: 0px 0px 0 0;
+}
+.item1 li a{
+    transition: all 0.3s ease 0s;
+}
+.item1 li a:hover{
+    color :#0088a9
+}
+.item1 .tulisan{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.item1 .mobil{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:0; 
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }to{
+        background-position: 100% 0;
+    }
+}
+.item2 {
+    position: relative;
+    background: url(image/bg22.png);
+    background-position:center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.item3 {
+    margin:0;
+    padding:0;
+    position: relative;
+    background: url(bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.item4 {
+    position: relative;
+    background: url(About/bg.png);
+    background-position:center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.item5 {
+    position: relative;
+    background: url(map/bg.png);
+    background-position:center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
